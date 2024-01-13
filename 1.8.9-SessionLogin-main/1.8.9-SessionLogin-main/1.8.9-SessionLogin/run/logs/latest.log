@@ -1,0 +1,92 @@
+[12:20:42] [Client thread/INFO]: Setting user: Player422
+[12:20:45] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:20:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Session Login
+[12:20:48] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:20:48] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[12:20:48] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:20:48] [Thread-8/INFO]: OpenAL initialized.
+[12:20:48] [Sound Library Loader/INFO]: Sound engine started
+[12:20:54] [Client thread/INFO]: Created: 16x16 textures-atlas
+[12:20:55] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Session Login
+[12:20:55] [Client thread/INFO]: SoundSystem shutting down...
+[12:20:55] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[12:20:55] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:20:55] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[12:20:55] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:20:55] [Thread-10/INFO]: OpenAL initialized.
+[12:20:56] [Sound Library Loader/INFO]: Sound engine started
+[12:21:01] [Client thread/INFO]: Created: 512x512 textures-atlas
+[12:21:53] [Client thread/INFO]: Connecting to play.wynncraft.com, 25565
+[12:22:08] [Client thread/INFO]: Connecting to na.minemen.club., 25565
+[12:22:09] [Client thread/INFO]: [CHAT] ----------------------------------------
+[12:22:09] [Client thread/INFO]: [CHAT]                             Minemen Club
+[12:22:09] [Client thread/INFO]: [CHAT] 
+[12:22:09] [Client thread/INFO]: [CHAT]  ● Website: minemen.club
+[12:22:09] [Client thread/INFO]: [CHAT]  ● Store: store.minemen.club
+[12:22:09] [Client thread/INFO]: [CHAT]  ● Discord: minemen.club/discord
+[12:22:09] [Client thread/INFO]: [CHAT]  ● Twitter: twitter.com/Minemen_Network
+[12:22:09] [Client thread/INFO]: [CHAT]  ● Rules: minemen.club/rules
+[12:22:09] [Client thread/INFO]: [CHAT] ----------------------------------------
+[12:22:14] [Client thread/INFO]: [CHAT] You've been added to the NA Practice queue.
+[12:22:14] [Client thread/INFO]: [CHAT] You're now being sent to NA Practice.
+[12:22:15] [Client thread/INFO]: [CHAT] --------------------------------------
+[12:22:15] [Client thread/INFO]: [CHAT]                             NA Practice
+[12:22:15] [Client thread/INFO]: [CHAT]  
+[12:22:15] [Client thread/INFO]: [CHAT]  ● Season: 5 (Started December 11th)
+[12:22:15] [Client thread/INFO]: [CHAT]  
+[12:22:15] [Client thread/INFO]: [CHAT]  ● To duel a player, do /duel [their name].
+[12:22:15] [Client thread/INFO]: [CHAT]  ● To queue a match, right click the sword.
+[12:22:15] [Client thread/INFO]: [CHAT]  ● To edit a kit, right click the book.
+[12:22:15] [Client thread/INFO]: [CHAT]  
+[12:22:15] [Client thread/INFO]: [CHAT]  WHAT'S NEW 3/26:
+[12:22:15] [Client thread/INFO]: [CHAT]   ● Revamped Spring Spawn
+[12:22:15] [Client thread/INFO]: [CHAT]   ● Added /titles
+[12:22:15] [Client thread/INFO]: [CHAT]   ● Map Updates
+[12:22:15] [Client thread/INFO]: [CHAT]   ● Tons of Bug Fixes + Tweaks
+[12:22:15] [Client thread/INFO]: [CHAT] --------------------------------------
+[12:22:16] [Client thread/INFO]: [CHAT] Curtal: srasz
+[12:22:20] [Client thread/INFO]: [CHAT] Aleakergamer: DUDE
+[12:22:20] [Client thread/INFO]: [CHAT] MrCataaa: gg
+[12:22:22] [Client thread/INFO]: [CHAT] PuchatekYT: no
+[12:22:22] [Client thread/INFO]: [CHAT] Tytoo: c
+[12:22:23] [Client thread/INFO]: [CHAT] Zytus: bruh
+[12:22:25] [Client thread/INFO]: [CHAT] ThaiHung: :b
+[12:22:26] [Client thread/INFO]: [CHAT] Zytus: 260ms
+[12:22:29] [Client thread/INFO]: [CHAT] Kaktusik_1: bzzzz
+[12:22:29] [Client thread/INFO]: [CHAT] Semm_b: mangiato
+[12:22:31] [Client thread/INFO]: [CHAT] s8fe: dude chi;ll with the velo
+[12:22:37] [Client thread/INFO]: [CHAT] Speebia: @LunarClientOwner can i have a screenie?
+[12:22:39] [Client thread/INFO]: [CHAT] zxcxixec: gg
+[12:22:41] [Client thread/INFO]: [CHAT] 
+[12:22:41] [Client thread/INFO]: [CHAT] [MMC] Follow for server updates: twitter.com/Minemen_Network
+[12:22:41] [Client thread/INFO]: [CHAT]  
+[12:22:43] [Client thread/INFO]: [CHAT] misterwister123: runnner
+[12:22:56] [Client thread/INFO]: [CHAT] bigflansito: L
+[12:22:57] [Client thread/INFO]: [CHAT] TobiiM9: :v
+[12:22:58] [Client thread/INFO]: [CHAT] Spookhhh: reach
+[12:23:01] [Client thread/INFO]: [CHAT] [✡] LunarClientOwner [枩]: Dificil I hate you
+[12:23:05] [Client thread/INFO]: [CHAT] DuelEast: twtf
+[12:23:41] [Client thread/INFO]: Connecting to na.minemen.club., 25565
+[12:23:42] [Client thread/INFO]: [CHAT] ----------------------------------------
+[12:23:42] [Client thread/INFO]: [CHAT]                             Minemen Club
+[12:23:42] [Client thread/INFO]: [CHAT] 
+[12:23:42] [Client thread/INFO]: [CHAT]  ● Website: minemen.club
+[12:23:42] [Client thread/INFO]: [CHAT]  ● Store: store.minemen.club
+[12:23:42] [Client thread/INFO]: [CHAT]  ● Discord: minemen.club/discord
+[12:23:42] [Client thread/INFO]: [CHAT]  ● Twitter: twitter.com/Minemen_Network
+[12:23:42] [Client thread/INFO]: [CHAT]  ● Rules: minemen.club/rules
+[12:23:42] [Client thread/INFO]: [CHAT] ----------------------------------------
+[12:23:49] [Client thread/INFO]: Connecting to na.minemen.club., 25565
+[12:23:57] [Client thread/INFO]: Connecting to na.minemen.club., 25565
+[12:23:58] [Client thread/INFO]: [CHAT] ----------------------------------------
+[12:23:58] [Client thread/INFO]: [CHAT]                             Minemen Club
+[12:23:58] [Client thread/INFO]: [CHAT] 
+[12:23:58] [Client thread/INFO]: [CHAT]  ● Website: minemen.club
+[12:23:58] [Client thread/INFO]: [CHAT]  ● Store: store.minemen.club
+[12:23:58] [Client thread/INFO]: [CHAT]  ● Discord: minemen.club/discord
+[12:23:58] [Client thread/INFO]: [CHAT]  ● Twitter: twitter.com/Minemen_Network
+[12:23:58] [Client thread/INFO]: [CHAT]  ● Rules: minemen.club/rules
+[12:23:58] [Client thread/INFO]: [CHAT] ----------------------------------------
+[12:24:08] [Client thread/INFO]: Stopping!
+[12:24:08] [Client thread/INFO]: SoundSystem shutting down...
+[12:24:08] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

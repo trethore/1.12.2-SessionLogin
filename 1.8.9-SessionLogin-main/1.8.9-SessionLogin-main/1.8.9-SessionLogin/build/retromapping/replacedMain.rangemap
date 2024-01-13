@@ -1,0 +1,297 @@
+Symbol range map extraction starting
+Processing 2 files
+processing me\gui\Gui.java
+@|me\gui\Gui.java|8|14|me.gui|package|me.gui|(file)
+Class Start: me.gui.Gui
+   @|me\gui\Gui.java|858|867|GuiScreen|class|net.minecraft.client.gui.GuiScreen
+   @|me\gui\Gui.java|868|882|previousScreen|field|me.gui.Gui|previousScreen|
+   @|me\gui\Gui.java|893|905|GuiTextField|class|net.minecraft.client.gui.GuiTextField
+   @|me\gui\Gui.java|906|918|sessionField|field|me.gui.Gui|sessionField|
+   @|me\gui\Gui.java|929|945|ScaledResolution|class|net.minecraft.client.gui.ScaledResolution
+   @|me\gui\Gui.java|946|948|sr|field|me.gui.Gui|sr|
+   Method Start: Gui(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|me\gui\Gui.java|959|962|Gui|method|me.gui.Gui|Gui|(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|me\gui\Gui.java|963|972|GuiScreen|class|net.minecraft.client.gui.GuiScreen
+      @|me\gui\Gui.java|973|987|previousScreen|param|me.gui.Gui|Gui|(Lnet/minecraft/client/gui/GuiScreen;)V|previousScreen|0
+      @|me\gui\Gui.java|998|1012|previousScreen|field|me.gui.Gui|previousScreen
+      @|me\gui\Gui.java|1015|1029|previousScreen|param|me.gui.Gui|Gui|(Lnet/minecraft/client/gui/GuiScreen;)V|previousScreen|0
+   Method End: Gui(Lnet/minecraft/client/gui/GuiScreen;)V
+   Method Start: initGui()V
+      @|me\gui\Gui.java|1059|1066|initGui|method|net.minecraft.client.gui.GuiScreen|initGui|()V
+      @|me\gui\Gui.java|1073|1081|Keyboard|class|org.lwjgl.input.Keyboard
+      @|me\gui\Gui.java|1082|1100|enableRepeatEvents|method|org.lwjgl.input.Keyboard|enableRepeatEvents|(Z)V
+      @|me\gui\Gui.java|1110|1112|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|1119|1135|ScaledResolution|class|net.minecraft.client.gui.ScaledResolution
+      @|me\gui\Gui.java|1136|1138|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|me\gui\Gui.java|1144|1156|sessionField|field|me.gui.Gui|sessionField
+      @|me\gui\Gui.java|1163|1175|GuiTextField|class|net.minecraft.client.gui.GuiTextField
+      @|me\gui\Gui.java|1179|1181|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|me\gui\Gui.java|1182|1197|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|me\gui\Gui.java|1199|1201|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|1202|1216|getScaledWidth|method|net.minecraft.client.gui.ScaledResolution|getScaledWidth|()I
+      @|me\gui\Gui.java|1230|1232|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|1233|1248|getScaledHeight|method|net.minecraft.client.gui.ScaledResolution|getScaledHeight|()I
+      @|me\gui\Gui.java|1272|1284|sessionField|field|me.gui.Gui|sessionField
+      @|me\gui\Gui.java|1285|1303|setMaxStringLength|method|net.minecraft.client.gui.GuiTextField|setMaxStringLength|(I)V
+      @|me\gui\Gui.java|1314|1326|sessionField|field|me.gui.Gui|sessionField
+      @|me\gui\Gui.java|1327|1337|setFocused|method|net.minecraft.client.gui.GuiTextField|setFocused|(Z)V
+      @|me\gui\Gui.java|1347|1357|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|me\gui\Gui.java|1358|1361|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|me\gui\Gui.java|1371|1380|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|me\gui\Gui.java|1386|1388|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|1389|1403|getScaledWidth|method|net.minecraft.client.gui.ScaledResolution|getScaledWidth|()I
+      @|me\gui\Gui.java|1417|1419|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|1420|1435|getScaledHeight|method|net.minecraft.client.gui.ScaledResolution|getScaledHeight|()I
+      @|me\gui\Gui.java|1471|1481|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|me\gui\Gui.java|1482|1485|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|me\gui\Gui.java|1495|1504|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|me\gui\Gui.java|1510|1512|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|1513|1527|getScaledWidth|method|net.minecraft.client.gui.ScaledResolution|getScaledWidth|()I
+      @|me\gui\Gui.java|1541|1543|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|1544|1559|getScaledHeight|method|net.minecraft.client.gui.ScaledResolution|getScaledHeight|()I
+      @|me\gui\Gui.java|1594|1604|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|me\gui\Gui.java|1605|1608|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|me\gui\Gui.java|1618|1627|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|me\gui\Gui.java|1633|1635|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|1636|1650|getScaledWidth|method|net.minecraft.client.gui.ScaledResolution|getScaledWidth|()I
+      @|me\gui\Gui.java|1663|1665|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|1666|1681|getScaledHeight|method|net.minecraft.client.gui.ScaledResolution|getScaledHeight|()I
+      @|me\gui\Gui.java|1728|1735|initGui|method|net.minecraft.client.gui.GuiScreen|initGui|()V
+   Method End: initGui()V
+   Method Start: onGuiClosed()V
+      @|me\gui\Gui.java|1767|1778|onGuiClosed|method|net.minecraft.client.gui.GuiScreen|onGuiClosed|()V
+      @|me\gui\Gui.java|1785|1793|Keyboard|class|org.lwjgl.input.Keyboard
+      @|me\gui\Gui.java|1794|1812|enableRepeatEvents|method|org.lwjgl.input.Keyboard|enableRepeatEvents|(Z)V
+      @|me\gui\Gui.java|1830|1841|onGuiClosed|method|net.minecraft.client.gui.GuiScreen|onGuiClosed|()V
+   Method End: onGuiClosed()V
+   Method Start: drawScreen(IIF)V
+      @|me\gui\Gui.java|1873|1883|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+      @|me\gui\Gui.java|1888|1894|mouseX|param|me.gui.Gui|drawScreen|(IIF)V|mouseX|0
+      @|me\gui\Gui.java|1900|1906|mouseY|param|me.gui.Gui|drawScreen|(IIF)V|mouseY|1
+      @|me\gui\Gui.java|1914|1926|partialTicks|param|me.gui.Gui|drawScreen|(IIF)V|partialTicks|2
+      @|me\gui\Gui.java|1932|1953|drawDefaultBackground|method|net.minecraft.client.gui.GuiScreen|drawDefaultBackground|()V
+      @|me\gui\Gui.java|1959|1961|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|me\gui\Gui.java|1962|1977|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|me\gui\Gui.java|1978|1988|drawString|method|net.minecraft.client.gui.FontRenderer|drawString|(Ljava/lang/String;III)I
+      @|me\gui\Gui.java|2016|2018|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|2019|2033|getScaledWidth|method|net.minecraft.client.gui.ScaledResolution|getScaledWidth|()I
+      @|me\gui\Gui.java|2042|2044|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|me\gui\Gui.java|2045|2060|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|me\gui\Gui.java|2061|2075|getStringWidth|method|net.minecraft.client.gui.FontRenderer|getStringWidth|(Ljava/lang/String;)I
+      @|me\gui\Gui.java|2108|2110|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|2111|2126|getScaledHeight|method|net.minecraft.client.gui.ScaledResolution|getScaledHeight|()I
+      @|me\gui\Gui.java|2139|2144|Color|class|java.awt.Color
+      @|me\gui\Gui.java|2145|2148|RED|field|java.awt.Color|RED
+      @|me\gui\Gui.java|2149|2155|getRGB|method|java.awt.Color|getRGB|()I
+      @|me\gui\Gui.java|2162|2168|String|class|java.lang.String
+      @|me\gui\Gui.java|2178|2192|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting
+      @|me\gui\Gui.java|2193|2198|WHITE|field|com.mojang.realmsclient.gui.ChatFormatting|WHITE
+      @|me\gui\Gui.java|2212|2226|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting
+      @|me\gui\Gui.java|2227|2237|DARK_GREEN|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_GREEN
+      @|me\gui\Gui.java|2240|2242|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|me\gui\Gui.java|2243|2253|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+      @|me\gui\Gui.java|2256|2267|getUsername|method|net.minecraft.util.Session|getUsername|()Ljava/lang/String;
+      @|me\gui\Gui.java|2276|2290|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting
+      @|me\gui\Gui.java|2291|2296|WHITE|field|com.mojang.realmsclient.gui.ChatFormatting|WHITE
+      @|me\gui\Gui.java|2311|2325|ChatFormatting|class|com.mojang.realmsclient.gui.ChatFormatting
+      @|me\gui\Gui.java|2326|2336|DARK_GREEN|field|com.mojang.realmsclient.gui.ChatFormatting|DARK_GREEN
+      @|me\gui\Gui.java|2339|2341|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|me\gui\Gui.java|2342|2352|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+      @|me\gui\Gui.java|2355|2366|getPlayerID|method|net.minecraft.util.Session|getPlayerID|()Ljava/lang/String;
+      @|me\gui\Gui.java|2372|2374|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|me\gui\Gui.java|2375|2390|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|me\gui\Gui.java|2391|2401|drawString|method|net.minecraft.client.gui.FontRenderer|drawString|(Ljava/lang/String;III)I
+      @|me\gui\Gui.java|2410|2412|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|2413|2427|getScaledWidth|method|net.minecraft.client.gui.ScaledResolution|getScaledWidth|()I
+      @|me\gui\Gui.java|2436|2438|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|me\gui\Gui.java|2439|2454|fontRendererObj|field|net.minecraft.client.Minecraft|fontRendererObj
+      @|me\gui\Gui.java|2455|2469|getStringWidth|method|net.minecraft.client.gui.FontRenderer|getStringWidth|(Ljava/lang/String;)I
+      @|me\gui\Gui.java|2487|2489|sr|field|me.gui.Gui|sr
+      @|me\gui\Gui.java|2490|2505|getScaledHeight|method|net.minecraft.client.gui.ScaledResolution|getScaledHeight|()I
+      @|me\gui\Gui.java|2518|2523|Color|class|java.awt.Color
+      @|me\gui\Gui.java|2524|2529|WHITE|field|java.awt.Color|WHITE
+      @|me\gui\Gui.java|2530|2536|getRGB|method|java.awt.Color|getRGB|()I
+      @|me\gui\Gui.java|2543|2555|sessionField|field|me.gui.Gui|sessionField
+      @|me\gui\Gui.java|2556|2567|drawTextBox|method|net.minecraft.client.gui.GuiTextField|drawTextBox|()V
+      @|me\gui\Gui.java|2580|2590|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+      @|me\gui\Gui.java|2591|2597|mouseX|param|me.gui.Gui|drawScreen|(IIF)V|mouseX|0
+      @|me\gui\Gui.java|2599|2605|mouseY|param|me.gui.Gui|drawScreen|(IIF)V|mouseY|1
+      @|me\gui\Gui.java|2607|2619|partialTicks|param|me.gui.Gui|drawScreen|(IIF)V|partialTicks|2
+   Method End: drawScreen(IIF)V
+   Method Start: actionPerformed(Lnet/minecraft/client/gui/GuiButton;)V
+      @|me\gui\Gui.java|2653|2668|actionPerformed|method|net.minecraft.client.gui.GuiScreen|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V
+      @|me\gui\Gui.java|2694|2705|IOException|class|java.io.IOException
+      @|me\gui\Gui.java|2669|2678|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|me\gui\Gui.java|2679|2685|button|param|me.gui.Gui|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|me\gui\Gui.java|2714|2720|button|param|me.gui.Gui|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|me\gui\Gui.java|2721|2723|id|field|net.minecraft.client.gui.GuiButton|id
+      @|me\gui\Gui.java|2740|2752|sessionField|field|me.gui.Gui|sessionField
+      @|me\gui\Gui.java|2753|2760|getText|method|net.minecraft.client.gui.GuiTextField|getText|()Ljava/lang/String;
+      @|me\gui\Gui.java|2763|2771|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me\gui\Gui.java|2774|2780|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|me\gui\Gui.java|2788|2800|sessionField|field|me.gui.Gui|sessionField
+      @|me\gui\Gui.java|2801|2808|getText|method|net.minecraft.client.gui.GuiTextField|getText|()Ljava/lang/String;
+      @|me\gui\Gui.java|2811|2819|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|me\gui\Gui.java|2847|2853|String|class|java.lang.String
+      @|me\gui\Gui.java|2863|2875|sessionField|field|me.gui.Gui|sessionField
+      @|me\gui\Gui.java|2876|2883|getText|method|net.minecraft.client.gui.GuiTextField|getText|()Ljava/lang/String;
+      @|me\gui\Gui.java|2886|2891|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      Field: Array Length, skipping
+      @|me\gui\Gui.java|2931|2937|String|class|java.lang.String
+      @|me\gui\Gui.java|2959|2965|String|class|java.lang.String
+      @|me\gui\Gui.java|2987|2993|String|class|java.lang.String
+      @|me\gui\Gui.java|3016|3020|Main|class|me.main.Main
+      @|me\gui\Gui.java|3021|3031|setSession|method|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      @|me\gui\Gui.java|3080|3092|sessionField|field|me.gui.Gui|sessionField
+      @|me\gui\Gui.java|3093|3100|setText|method|net.minecraft.client.gui.GuiTextField|setText|(Ljava/lang/String;)V
+      @|me\gui\Gui.java|3130|3139|Exception|class|java.lang.Exception
+      @|me\gui\Gui.java|3151|3166|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|me\gui\Gui.java|3186|3192|button|param|me.gui.Gui|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|me\gui\Gui.java|3193|3195|id|field|net.minecraft.client.gui.GuiButton|id
+      @|me\gui\Gui.java|3219|3223|Main|class|me.main.Main
+      @|me\gui\Gui.java|3224|3234|setSession|method|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      @|me\gui\Gui.java|3235|3239|Main|class|me.main.Main
+      @|me\gui\Gui.java|3240|3255|originalSession|field|me.main.Main|originalSession
+      @|me\gui\Gui.java|3256|3267|getUsername|method|net.minecraft.util.Session|getUsername|()Ljava/lang/String;
+      @|me\gui\Gui.java|3271|3275|Main|class|me.main.Main
+      @|me\gui\Gui.java|3276|3291|originalSession|field|me.main.Main|originalSession
+      @|me\gui\Gui.java|3292|3303|getPlayerID|method|net.minecraft.util.Session|getPlayerID|()Ljava/lang/String;
+      @|me\gui\Gui.java|3313|3317|Main|class|me.main.Main
+      @|me\gui\Gui.java|3318|3333|originalSession|field|me.main.Main|originalSession
+      @|me\gui\Gui.java|3334|3342|getToken|method|net.minecraft.util.Session|getToken|()Ljava/lang/String;
+      @|me\gui\Gui.java|3361|3373|sessionField|field|me.gui.Gui|sessionField
+      @|me\gui\Gui.java|3374|3381|setText|method|net.minecraft.client.gui.GuiTextField|setText|(Ljava/lang/String;)V
+      @|me\gui\Gui.java|3411|3420|Exception|class|java.lang.Exception
+      @|me\gui\Gui.java|3441|3447|button|param|me.gui.Gui|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+      @|me\gui\Gui.java|3448|3450|id|field|net.minecraft.client.gui.GuiButton|id
+      @|me\gui\Gui.java|3464|3466|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|me\gui\Gui.java|3467|3483|displayGuiScreen|method|net.minecraft.client.Minecraft|displayGuiScreen|(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|me\gui\Gui.java|3484|3498|previousScreen|field|me.gui.Gui|previousScreen
+      @|me\gui\Gui.java|3513|3528|actionPerformed|method|net.minecraft.client.gui.GuiScreen|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V
+      @|me\gui\Gui.java|3529|3535|button|param|me.gui.Gui|actionPerformed|(Lnet/minecraft/client/gui/GuiButton;)V|button|0
+   Method End: actionPerformed(Lnet/minecraft/client/gui/GuiButton;)V
+   Method Start: keyTyped(CI)V
+      @|me\gui\Gui.java|3569|3577|keyTyped|method|net.minecraft.client.gui.GuiScreen|keyTyped|(CI)V
+      @|me\gui\Gui.java|3614|3625|IOException|class|java.io.IOException
+      @|me\gui\Gui.java|3583|3592|typedChar|param|me.gui.Gui|keyTyped|(CI)V|typedChar|0
+      @|me\gui\Gui.java|3598|3605|keyCode|param|me.gui.Gui|keyTyped|(CI)V|keyCode|1
+      @|me\gui\Gui.java|3630|3642|sessionField|field|me.gui.Gui|sessionField
+      @|me\gui\Gui.java|3643|3658|textboxKeyTyped|method|net.minecraft.client.gui.GuiTextField|textboxKeyTyped|(CI)Z
+      @|me\gui\Gui.java|3659|3668|typedChar|param|me.gui.Gui|keyTyped|(CI)V|typedChar|0
+      @|me\gui\Gui.java|3670|3677|keyCode|param|me.gui.Gui|keyTyped|(CI)V|keyCode|1
+      @|me\gui\Gui.java|3686|3694|Keyboard|class|org.lwjgl.input.Keyboard
+      @|me\gui\Gui.java|3695|3705|KEY_ESCAPE|field|org.lwjgl.input.Keyboard|KEY_ESCAPE
+      @|me\gui\Gui.java|3709|3716|keyCode|param|me.gui.Gui|keyTyped|(CI)V|keyCode|1
+      @|me\gui\Gui.java|3721|3723|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|me\gui\Gui.java|3724|3740|displayGuiScreen|method|net.minecraft.client.Minecraft|displayGuiScreen|(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|me\gui\Gui.java|3741|3755|previousScreen|field|me.gui.Gui|previousScreen
+      @|me\gui\Gui.java|3774|3782|keyTyped|method|net.minecraft.client.gui.GuiScreen|keyTyped|(CI)V
+      @|me\gui\Gui.java|3783|3792|typedChar|param|me.gui.Gui|keyTyped|(CI)V|typedChar|0
+      @|me\gui\Gui.java|3794|3801|keyCode|param|me.gui.Gui|keyTyped|(CI)V|keyCode|1
+   Method End: keyTyped(CI)V
+Class End  : me.gui.Gui
+endProcessing me\gui\Gui.java
+
+processing me\main\Main.java
+@|me\main\Main.java|8|15|me.main|package|me.main|(file)
+Class Start: me.main.Main
+   @|me\main\Main.java|1012|1018|String|class|java.lang.String
+   @|me\main\Main.java|1019|1024|MODID|field|me.main.Main|MODID|
+   @|me\main\Main.java|1069|1075|String|class|java.lang.String
+   @|me\main\Main.java|1076|1080|NAME|field|me.main.Main|NAME|
+   @|me\main\Main.java|1121|1127|String|class|java.lang.String
+   @|me\main\Main.java|1128|1135|VERSION|field|me.main.Main|VERSION|
+   @|me\main\Main.java|1160|1169|Minecraft|class|net.minecraft.client.Minecraft
+   @|me\main\Main.java|1170|1172|mc|field|me.main.Main|mc|
+   @|me\main\Main.java|1175|1184|Minecraft|class|net.minecraft.client.Minecraft
+   @|me\main\Main.java|1185|1197|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|me\main\Main.java|1216|1223|Session|class|net.minecraft.util.Session
+   @|me\main\Main.java|1224|1239|originalSession|field|me.main.Main|originalSession|
+   @|me\main\Main.java|1242|1244|mc|field|me.main.Main|mc
+   @|me\main\Main.java|1245|1255|getSession|method|net.minecraft.client.Minecraft|getSession|()Lnet/minecraft/util/Session;
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|me\main\Main.java|1288|1295|preInit|method|me.main.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|me\main\Main.java|1296|1321|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|me\main\Main.java|1322|1327|event|param|me.main.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|me\main\Main.java|1333|1347|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|me\main\Main.java|1348|1357|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|me\main\Main.java|1358|1366|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me\main\Main.java|1406|1410|init|method|me.main.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|me\main\Main.java|1411|1433|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|me\main\Main.java|1434|1439|event|param|me.main.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: onInitGuiPost(Lnet/minecraftforge/client/event/GuiScreenEvent$InitGuiEvent$Post;)V
+      @|me\main\Main.java|1478|1491|onInitGuiPost|method|me.main.Main|onInitGuiPost|(Lnet/minecraftforge/client/event/GuiScreenEvent$InitGuiEvent$Post;)V
+      @|me\main\Main.java|1492|1524|GuiScreenEvent.InitGuiEvent.Post|class|net.minecraftforge.client.event.GuiScreenEvent.InitGuiEvent.Post
+      @|me\main\Main.java|1525|1526|e|param|me.main.Main|onInitGuiPost|(Lnet/minecraftforge/client/event/GuiScreenEvent$InitGuiEvent$Post;)V|e|0
+      @|me\main\Main.java|1536|1537|e|param|me.main.Main|onInitGuiPost|(Lnet/minecraftforge/client/event/GuiScreenEvent$InitGuiEvent$Post;)V|e|0
+      @|me\main\Main.java|1538|1541|gui|field|net.minecraftforge.client.event.GuiScreenEvent|gui
+      @|me\main\Main.java|1553|1567|GuiMultiplayer|class|net.minecraft.client.gui.GuiMultiplayer
+      @|me\main\Main.java|1574|1575|e|param|me.main.Main|onInitGuiPost|(Lnet/minecraftforge/client/event/GuiScreenEvent$InitGuiEvent$Post;)V|e|0
+      @|me\main\Main.java|1576|1586|buttonList|field|net.minecraftforge.client.event.GuiScreenEvent.InitGuiEvent|buttonList
+      @|me\main\Main.java|1587|1590|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|me\main\Main.java|1595|1604|GuiButton|class|net.minecraft.client.gui.GuiButton
+   Method End: onInitGuiPost(Lnet/minecraftforge/client/event/GuiScreenEvent$InitGuiEvent$Post;)V
+   Method Start: onActionPerformedPre(Lnet/minecraftforge/client/event/GuiScreenEvent$ActionPerformedEvent$Pre;)V
+      @|me\main\Main.java|1682|1702|onActionPerformedPre|method|me.main.Main|onActionPerformedPre|(Lnet/minecraftforge/client/event/GuiScreenEvent$ActionPerformedEvent$Pre;)V
+      @|me\main\Main.java|1703|1742|GuiScreenEvent.ActionPerformedEvent.Pre|class|net.minecraftforge.client.event.GuiScreenEvent.ActionPerformedEvent.Pre
+      @|me\main\Main.java|1743|1744|e|param|me.main.Main|onActionPerformedPre|(Lnet/minecraftforge/client/event/GuiScreenEvent$ActionPerformedEvent$Pre;)V|e|0
+      @|me\main\Main.java|1754|1755|e|param|me.main.Main|onActionPerformedPre|(Lnet/minecraftforge/client/event/GuiScreenEvent$ActionPerformedEvent$Pre;)V|e|0
+      @|me\main\Main.java|1756|1759|gui|field|net.minecraftforge.client.event.GuiScreenEvent|gui
+      @|me\main\Main.java|1771|1785|GuiMultiplayer|class|net.minecraft.client.gui.GuiMultiplayer
+      @|me\main\Main.java|1796|1797|e|param|me.main.Main|onActionPerformedPre|(Lnet/minecraftforge/client/event/GuiScreenEvent$ActionPerformedEvent$Pre;)V|e|0
+      @|me\main\Main.java|1798|1804|button|field|net.minecraftforge.client.event.GuiScreenEvent.ActionPerformedEvent|button
+      @|me\main\Main.java|1805|1807|id|field|net.minecraft.client.gui.GuiButton|id
+      @|me\main\Main.java|1822|1831|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\main\Main.java|1832|1844|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\main\Main.java|1847|1863|displayGuiScreen|method|net.minecraft.client.Minecraft|displayGuiScreen|(Lnet/minecraft/client/gui/GuiScreen;)V
+      @|me\main\Main.java|1868|1871|Gui|class|me.gui.Gui
+      @|me\main\Main.java|1872|1873|e|param|me.main.Main|onActionPerformedPre|(Lnet/minecraftforge/client/event/GuiScreenEvent$ActionPerformedEvent$Pre;)V|e|0
+      @|me\main\Main.java|1874|1877|gui|field|net.minecraftforge.client.event.GuiScreenEvent|gui
+   Method End: onActionPerformedPre(Lnet/minecraftforge/client/event/GuiScreenEvent$ActionPerformedEvent$Pre;)V
+   Method Start: setSession(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      @|me\main\Main.java|1914|1924|setSession|method|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+      @|me\main\Main.java|1925|1931|String|class|java.lang.String
+      @|me\main\Main.java|1932|1942|usernameIn|param|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|usernameIn|0
+      @|me\main\Main.java|1944|1950|String|class|java.lang.String
+      @|me\main\Main.java|1951|1961|playerIDIn|param|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|playerIDIn|1
+      @|me\main\Main.java|1963|1969|String|class|java.lang.String
+      @|me\main\Main.java|1970|1977|tokenIn|param|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|tokenIn|2
+      @|me\main\Main.java|1979|1985|String|class|java.lang.String
+      @|me\main\Main.java|1986|1999|sessionTypeIn|param|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|sessionTypeIn|3
+      @|me\main\Main.java|2005|2010|Field|class|java.lang.reflect.Field
+      @|me\main\Main.java|2058|2074|ReflectionHelper|class|net.minecraftforge.fml.relauncher.ReflectionHelper
+      @|me\main\Main.java|2075|2084|findField|method|net.minecraftforge.fml.relauncher.ReflectionHelper|findField|(Ljava/lang/Class;[Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|me\main\Main.java|2085|2094|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\main\Main.java|2131|2140|Exception|class|java.lang.Exception
+      @|me\main\Main.java|2174|2190|ReflectionHelper|class|net.minecraftforge.fml.relauncher.ReflectionHelper
+      @|me\main\Main.java|2191|2200|findField|method|net.minecraftforge.fml.relauncher.ReflectionHelper|findField|(Ljava/lang/Class;[Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|me\main\Main.java|2201|2210|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\main\Main.java|2242|2251|Exception|class|java.lang.Exception
+      @|me\main\Main.java|2312|2318|System|class|java.lang.System
+      @|me\main\Main.java|2319|2322|out|field|java.lang.System|out
+      @|me\main\Main.java|2323|2328|print|method|java.io.PrintStream|print|(Ljava/lang/String;)V
+      @|me\main\Main.java|2414|2427|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|me\main\Main.java|2438|2444|String|class|java.lang.String
+      @|me\main\Main.java|2456|2466|usernameIn|param|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|usernameIn|0
+      @|me\main\Main.java|2471|2477|String|class|java.lang.String
+      @|me\main\Main.java|2485|2495|playerIDIn|param|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|playerIDIn|1
+      @|me\main\Main.java|2500|2506|String|class|java.lang.String
+      @|me\main\Main.java|2515|2522|tokenIn|param|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|tokenIn|2
+      @|me\main\Main.java|2527|2533|String|class|java.lang.String
+      @|me\main\Main.java|2541|2554|sessionTypeIn|param|me.main.Main|setSession|(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V|sessionTypeIn|3
+      @|me\main\Main.java|2559|2568|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\main\Main.java|2581|2590|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\main\Main.java|2591|2603|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\main\Main.java|2610|2617|Session|class|net.minecraft.util.Session
+      @|me\main\Main.java|2632|2639|Session|class|net.minecraft.util.Session
+      @|me\main\Main.java|2686|2689|set|method|java.lang.reflect.Field|set|(Ljava/lang/Object;Ljava/lang/Object;)V
+      @|me\main\Main.java|2690|2699|Minecraft|class|net.minecraft.client.Minecraft
+      @|me\main\Main.java|2700|2712|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|me\main\Main.java|2737|2746|Exception|class|java.lang.Exception
+   Method End: setSession(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+Class End  : me.main.Main
+endProcessing me\main\Main.java
+
